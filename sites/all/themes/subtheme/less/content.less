@@ -1,1 +1,36 @@
-// Insert your styling here.
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.navbar {
+  border: none;
+}
+
+.menu.navbar-nav {
+  @media (min-width: @screen-md) {
+    .pull-right();
+  }
+  li {
+    border-bottom: 5px solid #fff;
+    &:hover, &.active {
+      border-bottom: 5px solid @brand-primary;
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.page-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
