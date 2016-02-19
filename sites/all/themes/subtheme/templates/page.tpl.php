@@ -127,7 +127,7 @@
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
 
-  <div class="container">
+  <div class="container main-block">
     <div class="row">
 
       <?php if (!empty($page['sidebar_first'])): ?>
@@ -167,11 +167,13 @@
       <?php endif; ?>
 
     </div>
-  <div>
+  </div>
 </div>
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
+  <footer class="footer container-fluid">
+    <div class="container">
+      <?php print render($page['footer']); ?>
+    </div>
   </footer>
 <?php endif; ?>
