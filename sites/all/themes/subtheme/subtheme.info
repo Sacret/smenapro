@@ -8,6 +8,7 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[top_region]     = 'Top region'
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
@@ -51,6 +52,8 @@ stylesheets[all][] = css/style.css
 ; scripts[] = 'bootstrap/js/scrollspy.js'
 ; scripts[] = 'bootstrap/js/tab.js'
 ; scripts[] = 'bootstrap/js/transition.js'
+scripts[] = 'js/jquery.maskedinput.js'
+scripts[] = 'js/script.js'
 ;
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
 ; settings[bootstrap_cdn] = ''

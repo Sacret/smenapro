@@ -7371,6 +7371,14 @@ body {
   float: left;
   padding: 0 30px 15px 0;
 }
+.view-works .col {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.view-works .views-field-field-work-image img {
+  margin: auto;
+  margin-bottom: 10px;
+}
 .main-container {
   background-color: #eeeeee;
 }
@@ -7402,4 +7410,30 @@ body {
 .node-equipment .field-name-field-equipment-image {
   float: left;
   padding: 0 30px 15px 0;
+}
+.top-region {
+  background-color: #647382;
+  border-bottom: 1px solid #32a0ff;
+  height: 40px;
+}
+#block-block-1 {
+  float: right;
+}
+#block-block-1 h2,
+#block-block-1 div {
+  float: left;
+  line-height: 30px;
+}
+#block-block-1 a {
+  color: #fff;
+  margin: 5px 5px 0;
+  display: inline-block;
+}
+#block-block-1 span {
+  color: #fff;
+  margin: 6px 0 0 10px;
+  display: inline-block;
+}
+.node-webform {
+  margin-bottom: 30px;
 }

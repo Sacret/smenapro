@@ -73,8 +73,17 @@
  * @ingroup templates
  */
 ?>
+
+<?php if (!empty($page['top_region'])): ?>
+  <section class="container-fluid top-region">
+    <div class="container">
+      <?php print render($page['top_region']); ?>
+    </div>
+  </section>
+<?php endif; ?>
+
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="<?php print $container_class; ?>">
+  <div class="container">
     <div class="navbar-header">
       <?php if ($logo): ?>
         <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
