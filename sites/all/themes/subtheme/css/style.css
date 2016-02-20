@@ -7437,3 +7437,12 @@ body {
 .node-webform {
   margin-bottom: 30px;
 }
+#block-block-2 {
+  margin-top: 50px;
+}
+#block-block-2 p {
+  margin-bottom: 15px;
+}
+#block-block-2 .glyphicon {
+  margin-right: 5px;
+}
