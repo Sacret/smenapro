@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -89,7 +89,7 @@ body {
   }
 }
 
-.view-catalog {
+.view-catalog, .view-taxonomy-term {
   .views-field-title {
     font-size: @font-size-h4;
     margin-bottom: 10px;
@@ -188,4 +188,14 @@ body {
   .glyphicon {
     margin-right: 5px;
   }
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 4px;
 }
