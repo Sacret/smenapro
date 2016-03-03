@@ -7456,3 +7456,6 @@ body {
 .navbar-nav > li > .dropdown-menu {
   margin-top: 4px;
 }
+.view-documents .views-field-title {
+  text-align: center;
+}
