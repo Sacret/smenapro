@@ -186,3 +186,5 @@
     </div>
   </footer>
 <?php endif; ?>
+
+<script src="http://code.jquery.com/jquery-migrate-1.3.0.js"></script>
